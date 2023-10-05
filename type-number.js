@@ -25,3 +25,8 @@ var a = 10;
 var b = 0;
 console.log(a/b); // Infinity
 console.log(b/b);
+
+const soma = 10 + 10;
+const multiplica = 10 * 10;
+const operacao = (soma + multiplica) + 10;
+console.log(operacao)
