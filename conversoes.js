@@ -17,3 +17,13 @@ console.log(numero + Number(numeroString));
 
 const nome = "Abimael21";
 console.log(Number(nome)); // vai dar que não é um número NaN - not a number
+
+// converter strings para números, colocando o sinal de + antes da variável
+let largura = "10";
+let altura = "5";
+console.log(+largura * +altura);
+
+let conectado = true;
+console.log(Number(conectado));
+conectado = false;
+console.log(Number(conectado));
